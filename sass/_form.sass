@@ -1,0 +1,56 @@
+form 
+	height: 120px
+	display: flex
+	justify-content: space-between
+	align-items: center
+	width: 100%
+	padding: 20px 70px
+	box-sizing: border-box
+
+	.add_card
+		display: flex
+		justify-content: space-between
+		align-items: center
+		width: 843px
+		box-sizing: border-box
+		border: 2px solid $dark-font-color
+		border-radius: 15px
+		padding: 25px
+
+	.find_card
+		display: flex
+		justify-content: center
+		align-items: center
+		width: 500px
+		box-sizing: border-box
+		border: 2px solid $dark-font-color
+		border-radius: 15px
+		padding: 25px
+
+	.add_button
+		@include mix-button
+	
+	.add_card>input
+		box-sizing: border-box
+		width: 150px
+		height: 50px
+		border-radius: 25px
+		outline: 0
+		outline-offset: 0
+		cursor: text
+		background-color: $word-color
+		padding-left: 20px
+		border: none
+
+	.find_card>input
+		box-sizing: border-box
+		width: 410px
+		height: 50px
+		border-radius: 25px
+		outline: 0
+		outline-offset: 0
+		cursor: text
+		background-color: $word-color
+		padding-left: 20px
+		border: none
+

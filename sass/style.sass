@@ -1,0 +1,35 @@
+$dark-font-color: #000000
+$light-font-color: #FFFFFF
+$button-color: #F39C12
+$word-color: #EBEBEB
+
+
+*
+	margin: 0
+	padding: 0
+	text-decoration: none
+
+body
+	color: $dark-font-color
+	padding-top: 60px
+
+
+
+@mixin mix-button($bg-color: $button-color, $color: $light-font-color)
+	background-color: $bg-color
+	color: $color
+	width: 196px
+	height: 50px
+	border-radius: 25px
+	display: flex
+	justify-content: center
+	align-items: center
+	border: none
+	cursor: pointer
+
+
+@import 'form'
+@import 'products'
+
+
+

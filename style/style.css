@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  color: #000000;
+  padding-top: 60px;
+}
+
+form {
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px 70px;
+  box-sizing: border-box;
+}
+form .add_card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 843px;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 15px;
+  padding: 25px;
+}
+form .find_card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 15px;
+  padding: 25px;
+}
+form .add_button {
+  background-color: #F39C12;
+  color: #FFFFFF;
+  width: 196px;
+  height: 50px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+}
+form .add_card > input {
+  box-sizing: border-box;
+  width: 150px;
+  height: 50px;
+  border-radius: 25px;
+  outline: 0;
+  outline-offset: 0;
+  cursor: text;
+  background-color: #EBEBEB;
+  padding-left: 20px;
+  border: none;
+}
+form .find_card > input {
+  box-sizing: border-box;
+  width: 410px;
+  height: 50px;
+  border-radius: 25px;
+  outline: 0;
+  outline-offset: 0;
+  cursor: text;
+  background-color: #EBEBEB;
+  padding-left: 20px;
+  border: none;
+}
+
+#products {
+  display: grid;
+  grid-template-columns: repeat(3, 250px);
+  grid-auto-rows: 250px;
+  justify-content: space-between;
+  grid-row-gap: 30px;
+  margin: 90px 60px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 20px;
+}
+
+.close {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  font-size: 19px;
+  border-radius: 50%;
+  border: 5px solid #000000;
+  top: -15px;
+  right: -15px;
+  cursor: pointer;
+}
+
+.close:hover {
+  background-color: #F39C12;
+}
+
+/*# sourceMappingURL=style.css.map */

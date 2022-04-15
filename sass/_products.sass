@@ -1,0 +1,33 @@
+#products
+	display: grid
+	grid-template-columns: repeat(3, 250px)
+	grid-auto-rows: 250px
+	justify-content: space-between
+	grid-row-gap: 30px
+	margin: 90px 60px
+
+.card
+	display: flex
+	justify-content: center
+	align-items: center
+	position: relative
+	border-radius: 20px
+
+.close
+	position: absolute
+	width:  30px
+	height:  30px
+	background-color: #FFFFFF
+	display: flex
+	justify-content: center
+	align-items: center
+	color: $dark-font-color
+	font-size: 19px
+	border-radius: 50%
+	border: 5px solid $dark-font-color
+	top: -15px
+	right: -15px
+	cursor: pointer
+
+.close:hover
+	background-color: $button-color
